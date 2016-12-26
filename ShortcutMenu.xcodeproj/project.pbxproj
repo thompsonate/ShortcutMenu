@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43BFE3681E10E5C80055931E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE3671E10E5C80055931E /* AppDelegate.swift */; };
+		43BFE36A1E10E5C80055931E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43BFE3691E10E5C80055931E /* Assets.xcassets */; };
+		43BFE36D1E10E5C80055931E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43BFE36B1E10E5C80055931E /* MainMenu.xib */; };
+		43BFE3781E10E5C80055931E /* ShortcutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE3771E10E5C80055931E /* ShortcutMenuTests.swift */; };
+		43BFE3831E10E5C80055931E /* ShortcutMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE3821E10E5C80055931E /* ShortcutMenuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43BFE3741E10E5C80055931E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43BFE35C1E10E5C70055931E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BFE3631E10E5C70055931E;
+			remoteInfo = ShortcutMenu;
+		};
+		43BFE37F1E10E5C80055931E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43BFE35C1E10E5C70055931E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43BFE3631E10E5C70055931E;
+			remoteInfo = ShortcutMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43BFE3641E10E5C80055931E /* ShortcutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BFE3671E10E5C80055931E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43BFE3691E10E5C80055931E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43BFE36C1E10E5C80055931E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		43BFE36E1E10E5C80055931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BFE3731E10E5C80055931E /* ShortcutMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BFE3771E10E5C80055931E /* ShortcutMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutMenuTests.swift; sourceTree = "<group>"; };
+		43BFE3791E10E5C80055931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43BFE37E1E10E5C80055931E /* ShortcutMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43BFE3821E10E5C80055931E /* ShortcutMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutMenuUITests.swift; sourceTree = "<group>"; };
+		43BFE3841E10E5C80055931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43BFE3611E10E5C70055931E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BFE3701E10E5C80055931E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BFE37B1E10E5C80055931E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43BFE35B1E10E5C70055931E = {
+			isa = PBXGroup;
+			children = (
+				43BFE3661E10E5C80055931E /* ShortcutMenu */,
+				43BFE3761E10E5C80055931E /* ShortcutMenuTests */,
+				43BFE3811E10E5C80055931E /* ShortcutMenuUITests */,
+				43BFE3651E10E5C80055931E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43BFE3651E10E5C80055931E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43BFE3641E10E5C80055931E /* ShortcutMenu.app */,
+				43BFE3731E10E5C80055931E /* ShortcutMenuTests.xctest */,
+				43BFE37E1E10E5C80055931E /* ShortcutMenuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43BFE3661E10E5C80055931E /* ShortcutMenu */ = {
+			isa = PBXGroup;
+			children = (
+				43BFE3671E10E5C80055931E /* AppDelegate.swift */,
+				43BFE3691E10E5C80055931E /* Assets.xcassets */,
+				43BFE36B1E10E5C80055931E /* MainMenu.xib */,
+				43BFE36E1E10E5C80055931E /* Info.plist */,
+			);
+			path = ShortcutMenu;
+			sourceTree = "<group>";
+		};
+		43BFE3761E10E5C80055931E /* ShortcutMenuTests */ = {
+			isa = PBXGroup;
+			children = (
+				43BFE3771E10E5C80055931E /* ShortcutMenuTests.swift */,
+				43BFE3791E10E5C80055931E /* Info.plist */,
+			);
+			path = ShortcutMenuTests;
+			sourceTree = "<group>";
+		};
+		43BFE3811E10E5C80055931E /* ShortcutMenuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43BFE3821E10E5C80055931E /* ShortcutMenuUITests.swift */,
+				43BFE3841E10E5C80055931E /* Info.plist */,
+			);
+			path = ShortcutMenuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43BFE3631E10E5C70055931E /* ShortcutMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BFE3871E10E5C80055931E /* Build configuration list for PBXNativeTarget "ShortcutMenu" */;
+			buildPhases = (
+				43BFE3601E10E5C70055931E /* Sources */,
+				43BFE3611E10E5C70055931E /* Frameworks */,
+				43BFE3621E10E5C70055931E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShortcutMenu;
+			productName = ShortcutMenu;
+			productReference = 43BFE3641E10E5C80055931E /* ShortcutMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43BFE3721E10E5C80055931E /* ShortcutMenuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BFE38A1E10E5C80055931E /* Build configuration list for PBXNativeTarget "ShortcutMenuTests" */;
+			buildPhases = (
+				43BFE36F1E10E5C80055931E /* Sources */,
+				43BFE3701E10E5C80055931E /* Frameworks */,
+				43BFE3711E10E5C80055931E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43BFE3751E10E5C80055931E /* PBXTargetDependency */,
+			);
+			name = ShortcutMenuTests;
+			productName = ShortcutMenuTests;
+			productReference = 43BFE3731E10E5C80055931E /* ShortcutMenuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43BFE37D1E10E5C80055931E /* ShortcutMenuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BFE38D1E10E5C80055931E /* Build configuration list for PBXNativeTarget "ShortcutMenuUITests" */;
+			buildPhases = (
+				43BFE37A1E10E5C80055931E /* Sources */,
+				43BFE37B1E10E5C80055931E /* Frameworks */,
+				43BFE37C1E10E5C80055931E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43BFE3801E10E5C80055931E /* PBXTargetDependency */,
+			);
+			name = ShortcutMenuUITests;
+			productName = ShortcutMenuUITests;
+			productReference = 43BFE37E1E10E5C80055931E /* ShortcutMenuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43BFE35C1E10E5C70055931E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nate Thompson";
+				TargetAttributes = {
+					43BFE3631E10E5C70055931E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YT2C78F725;
+						ProvisioningStyle = Automatic;
+					};
+					43BFE3721E10E5C80055931E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YT2C78F725;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43BFE3631E10E5C70055931E;
+					};
+					43BFE37D1E10E5C80055931E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = YT2C78F725;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 43BFE3631E10E5C70055931E;
+					};
+				};
+			};
+			buildConfigurationList = 43BFE35F1E10E5C70055931E /* Build configuration list for PBXProject "ShortcutMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43BFE35B1E10E5C70055931E;
+			productRefGroup = 43BFE3651E10E5C80055931E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43BFE3631E10E5C70055931E /* ShortcutMenu */,
+				43BFE3721E10E5C80055931E /* ShortcutMenuTests */,
+				43BFE37D1E10E5C80055931E /* ShortcutMenuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43BFE3621E10E5C70055931E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BFE36A1E10E5C80055931E /* Assets.xcassets in Resources */,
+				43BFE36D1E10E5C80055931E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BFE3711E10E5C80055931E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BFE37C1E10E5C80055931E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43BFE3601E10E5C70055931E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BFE3681E10E5C80055931E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BFE36F1E10E5C80055931E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BFE3781E10E5C80055931E /* ShortcutMenuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43BFE37A1E10E5C80055931E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43BFE3831E10E5C80055931E /* ShortcutMenuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43BFE3751E10E5C80055931E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43BFE3631E10E5C70055931E /* ShortcutMenu */;
+			targetProxy = 43BFE3741E10E5C80055931E /* PBXContainerItemProxy */;
+		};
+		43BFE3801E10E5C80055931E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43BFE3631E10E5C70055931E /* ShortcutMenu */;
+			targetProxy = 43BFE37F1E10E5C80055931E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43BFE36B1E10E5C80055931E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43BFE36C1E10E5C80055931E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43BFE3851E10E5C80055931E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43BFE3861E10E5C80055931E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		43BFE3881E10E5C80055931E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YT2C78F725;
+				INFOPLIST_FILE = ShortcutMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.natethompson.ShortcutMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43BFE3891E10E5C80055931E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YT2C78F725;
+				INFOPLIST_FILE = ShortcutMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.natethompson.ShortcutMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		43BFE38B1E10E5C80055931E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YT2C78F725;
+				INFOPLIST_FILE = ShortcutMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.natethompson.ShortcutMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutMenu.app/Contents/MacOS/ShortcutMenu";
+			};
+			name = Debug;
+		};
+		43BFE38C1E10E5C80055931E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YT2C78F725;
+				INFOPLIST_FILE = ShortcutMenuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.natethompson.ShortcutMenuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutMenu.app/Contents/MacOS/ShortcutMenu";
+			};
+			name = Release;
+		};
+		43BFE38E1E10E5C80055931E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YT2C78F725;
+				INFOPLIST_FILE = ShortcutMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.natethompson.ShortcutMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShortcutMenu;
+			};
+			name = Debug;
+		};
+		43BFE38F1E10E5C80055931E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = YT2C78F725;
+				INFOPLIST_FILE = ShortcutMenuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.natethompson.ShortcutMenuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ShortcutMenu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43BFE35F1E10E5C70055931E /* Build configuration list for PBXProject "ShortcutMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BFE3851E10E5C80055931E /* Debug */,
+				43BFE3861E10E5C80055931E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43BFE3871E10E5C80055931E /* Build configuration list for PBXNativeTarget "ShortcutMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BFE3881E10E5C80055931E /* Debug */,
+				43BFE3891E10E5C80055931E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43BFE38A1E10E5C80055931E /* Build configuration list for PBXNativeTarget "ShortcutMenuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BFE38B1E10E5C80055931E /* Debug */,
+				43BFE38C1E10E5C80055931E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43BFE38D1E10E5C80055931E /* Build configuration list for PBXNativeTarget "ShortcutMenuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43BFE38E1E10E5C80055931E /* Debug */,
+				43BFE38F1E10E5C80055931E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43BFE35C1E10E5C70055931E /* Project object */;
+}
