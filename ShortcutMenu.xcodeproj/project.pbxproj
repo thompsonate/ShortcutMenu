@@ -12,7 +12,6 @@
 		43BFE36D1E10E5C80055931E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43BFE36B1E10E5C80055931E /* MainMenu.xib */; };
 		43BFE3781E10E5C80055931E /* ShortcutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE3771E10E5C80055931E /* ShortcutMenuTests.swift */; };
 		43BFE3831E10E5C80055931E /* ShortcutMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE3821E10E5C80055931E /* ShortcutMenuUITests.swift */; };
-		43BFE3911E10EC060055931E /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BFE3901E10EC060055931E /* StatusMenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 		43BFE37E1E10E5C80055931E /* ShortcutMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43BFE3821E10E5C80055931E /* ShortcutMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutMenuUITests.swift; sourceTree = "<group>"; };
 		43BFE3841E10E5C80055931E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		43BFE3901E10EC060055931E /* StatusMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				43BFE3671E10E5C80055931E /* AppDelegate.swift */,
-				43BFE3901E10EC060055931E /* StatusMenuController.swift */,
 				43BFE3691E10E5C80055931E /* Assets.xcassets */,
 				43BFE36B1E10E5C80055931E /* MainMenu.xib */,
 				43BFE36E1E10E5C80055931E /* Info.plist */,
@@ -258,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43BFE3911E10EC060055931E /* StatusMenuController.swift in Sources */,
 				43BFE3681E10E5C80055931E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +396,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YT2C78F725;
 				INFOPLIST_FILE = ShortcutMenu/Info.plist;
@@ -415,7 +410,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = YT2C78F725;
 				INFOPLIST_FILE = ShortcutMenu/Info.plist;
