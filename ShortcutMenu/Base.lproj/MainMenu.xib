@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
@@ -16,15 +16,28 @@
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
         <customObject id="WWv-Da-p6A" userLabel="StatusMenuController" customClass="StatusMenuController" customModule="ShortcutMenu" customModuleProvider="target">
             <connections>
+                <outlet property="showAllFilesButton" destination="pIG-Rw-0CV" id="P6q-Wi-puD"/>
                 <outlet property="statusMenu" destination="gcA-rG-YUy" id="Ely-ps-eFa"/>
             </connections>
         </customObject>
         <menu id="gcA-rG-YUy">
             <items>
-                <menuItem title="&quot;Hello World!&quot;" id="CY2-PP-Lj4" userLabel="say &quot;Hello World!&quot;">
+                <menuItem title="say Hello World!" id="CY2-PP-Lj4" userLabel="say &quot;Hello World!&quot;">
                     <modifierMask key="keyEquivalentModifierMask"/>
                     <connections>
                         <action selector="helloWorld:" target="WWv-Da-p6A" id="nlR-P7-nva"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="Show Hidden Files" id="pIG-Rw-0CV" userLabel="showAllFiles">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="showAllFiles:" target="WWv-Da-p6A" id="ie3-Hz-6GR"/>
+                    </connections>
+                </menuItem>
+                <menuItem title="killall Dock" id="oZh-hS-fPw">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="killallDock:" target="WWv-Da-p6A" id="Rxv-jM-lb9"/>
                     </connections>
                 </menuItem>
                 <menuItem title="Quit" id="2JH-sz-GmN">
@@ -34,6 +47,7 @@
                     </connections>
                 </menuItem>
             </items>
+            <point key="canvasLocation" x="128.5" y="248.5"/>
         </menu>
     </objects>
 </document>
