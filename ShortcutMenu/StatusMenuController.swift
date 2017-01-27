@@ -86,19 +86,6 @@ class StatusMenuController: NSObject {
         }
         
     }
-    
-    @IBAction func showAllFilesFalse(_ sender: NSMenuItem) {
-        let task = Process()
-        task.launchPath = "/usr/bin/defaults"
-        task.arguments = ["write", "com.apple.finder", "AppleShowAllFiles", "FALSE"]
-        task.launch()
-        task.waitUntilExit()
-        
-        let task2 = Process()
-        task2.launchPath = "/usr/bin/killall"
-        task2.arguments = ["Finder"]
-        task2.launch()
-    }
 
     @IBAction func killallDock(_ sender: NSMenuItem) {
         let task = Process()
